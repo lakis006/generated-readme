@@ -79,6 +79,38 @@ async function init() {
     } catch (err) {
         console.log("Sorry, but this failed to fetch the username from github Error: \n", err);
     }
+    const content = buildContent(userInput);
+
+    writeToFile(userInput.fileName , content);
 }
+
+function buildContent(readme) {
+    let criteria = `
+
+    # ${object.title}
+
+    ## Description
+    ${object.description}
+
+    ## Table of Contents
+    * [Installation](#installation)
+    * [Usage](#usage)
+    * [License](#license)
+    * [Contributing](#contributing)
+    * [Tests](#tests)
+    * [Questions](#questions)
+    * [Additional-Badges](#additional-badges)
+     
+    ## Installation
+    ${object.installation}
+
+    # Utilization
+    ${object.utilization}
+
+    
+
+    `;
+}
+
 
 init();
