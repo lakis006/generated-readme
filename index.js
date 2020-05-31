@@ -2,44 +2,39 @@ const fs = require('fs');
 const axios = require('axios');
 const inquirer = require('inquirer');
 
-const gitHubQuestions = [
+const questions = [
     {
-        type: "input",
-        message: "Enter your Github username",
-        name: "username",
-        validate: function(input) {
-            if (input == "") {
-                return "Please enter a valid username"
-            } else {
-                true;
-            }
-        }
-    },
-    {
-        type: "input",
-        message: "Enter the name of the existing github repository",
-        name: "repository"
-    }
-];
+    type: "input",
+    name: "username",
+    message: "Enter your Github Username."
+},
+{
+    type: "input",
+    name: "email",
+    message: "Enter your Email Address.",
+},
+{
+    type: "input",
+    name: "title",
+    message: "Enter your project title.",
+},
+{
+    type: "input",
+    name: "description",
+    message: "Why not describe the project?"
+},
+{
+    type: "list",
+    name: "license",
+    message: "Enter the License",
+    options: [
+        "MIT",
+        "GNU",
+        "ISC",
+        "Apache"
+    ]
+},
 
-const readMeQuestions = [
-    {
-        type: "input",
-        message: "Enter your Github username",
-        name: "username",
-        validate: function(input) {
-            if (input == "") {
-                return "Please enter a valid username"
-            } else {
-                true;
-            }
-        }
-    },
-    {
-        type: "input",
-        message: "Enter the name of the existing github repository",
-        name: "repository"
-    }
 ];
 
 function writeToFile(fileName, data) {
