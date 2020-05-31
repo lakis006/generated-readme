@@ -62,10 +62,23 @@ const questions = [
 ];
 
 function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, function (err) {
+        if (err) {
+            return console.log("Sorry, but this failed to write to the file Error: \n", err)
+        }
+    });
 }
 
-function init() {
-
+async function init() {
+    const userInput = await inquirer.prompt(questions);
+    const { data } = "";
+    let profilePic;
+    try {
+        data = await axios.get(`https://api.github.com/users/${userInput.userName}`);
+        profilePic = data.avatar_url;
+    } catch (err) {
+        console.log("Sorry, but this failed to fetch the username from github Error: \n", err);
+    }
 }
 
 init();
