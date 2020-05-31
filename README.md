@@ -1,9 +1,9 @@
 
 
-    # my project 
+    # i love you 
 
     ## Description
-    it does things 
+    its called love, how about you learn about it?
 
     ## Table of Contents
     * [Installation](#installation)
@@ -15,16 +15,16 @@
     * [Additional-Badges](#additional-badges)
      
     ## Installation
-    free installation 
+    dont even try to install it 
 
     # Utilization
-    just use it 
+    use it 
 
     ## License
-    ![alt text](https://img.shields.io/github/license/undefined/my project .svg "License")
+    ![alt text](https://img.shields.io/github/license/undefined/i love you .svg "License")
 
     ## Contributors
-    me myself i 
+    contribute it 
 
     ## Tests
     dont test me 
@@ -35,7 +35,7 @@
     ![Profile Picture](undefined)
 
     ## Additional-Badges 
-    ![alt text](https://img.shields.io/github/license/undefined/my project .svg "Top Language Used")
+    ![alt text](https://img.shields.io/github/license/undefined/i love you .svg "Top Language Used")
 
     ---
 
