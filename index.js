@@ -27,7 +27,7 @@ const questions = [
     type: "list",
     name: "license",
     message: "Enter the License:",
-    options: [
+    choices: [
         "MIT",
         "GNU",
         "ISC",
@@ -129,7 +129,7 @@ function buildContent(readme) {
     `;
 
     return content; 
-    
+
 }
 
 
