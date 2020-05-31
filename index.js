@@ -107,9 +107,29 @@ function buildContent(readme) {
     # Utilization
     ${object.utilization}
 
-    
+    ## License
+    ![alt text](https://img.shields.io/github/license/${object.userName}/${object.title}.svg "License")
+
+    ## Contributors
+    ${object.contributors}
+
+    ## Tests
+    ${object.tests}
+
+    ## Questions
+    Please direct any questions to ${object.email}
+    Here is my profile picture for some reason:
+    ![Profile Picture](${this.profilePic})
+
+    ## Additional-Badges 
+    ![alt text](https://img.shields.io/github/license/${object.userName}/${object.title}.svg "Top Language Used")
+
+    ---
 
     `;
+
+    return content; 
+    
 }
 
 
