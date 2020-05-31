@@ -1,9 +1,9 @@
 
 
-    # i love you 
+    # One Peace
 
     ## Description
-    its called love, how about you learn about it?
+    this project grants you happiness 
 
     ## Table of Contents
     * [Installation](#installation)
@@ -15,16 +15,16 @@
     * [Additional-Badges](#additional-badges)
      
     ## Installation
-    dont even try to install it 
+    free installation!
 
     # Utilization
-    use it 
+    just use it 
 
     ## License
-    ![alt text](https://img.shields.io/github/license/undefined/i love you .svg "License")
+    ![alt text](https://img.shields.io/github/license/undefined/One Peace.svg "License")
 
     ## Contributors
-    contribute it 
+    me 
 
     ## Tests
     dont test me 
@@ -35,7 +35,7 @@
     ![Profile Picture](undefined)
 
     ## Additional-Badges 
-    ![alt text](https://img.shields.io/github/license/undefined/i love you .svg "Top Language Used")
+    ![alt text](https://img.shields.io/github/license/undefined/One Peace.svg "Top Language Used")
 
     ---
 
