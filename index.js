@@ -70,7 +70,7 @@ async function init() {
     
     const content = buildContent(userInput);
 
-    writeToFile("readMe", content);
+    writeToFile("readMe.md", content);
 
 }
 

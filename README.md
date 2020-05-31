@@ -1,9 +1,9 @@
 
 
-    # the project 
+    # my project 
 
     ## Description
-    nahhhh im good 
+    it does things 
 
     ## Table of Contents
     * [Installation](#installation)
@@ -15,16 +15,16 @@
     * [Additional-Badges](#additional-badges)
      
     ## Installation
-    just install 
+    free installation 
 
     # Utilization
-    dont use it 
+    just use it 
 
     ## License
-    ![alt text](https://img.shields.io/github/license/undefined/the project .svg "License")
+    ![alt text](https://img.shields.io/github/license/undefined/my project .svg "License")
 
     ## Contributors
-    me 
+    me myself i 
 
     ## Tests
     dont test me 
@@ -35,7 +35,7 @@
     ![Profile Picture](undefined)
 
     ## Additional-Badges 
-    ![alt text](https://img.shields.io/github/license/undefined/the project .svg "Top Language Used")
+    ![alt text](https://img.shields.io/github/license/undefined/my project .svg "Top Language Used")
 
     ---
 
