@@ -87,10 +87,10 @@ async function init() {
 function buildContent(readme) {
     let criteria = `
 
-    # ${object.title}
+    # ${readme.title}
 
     ## Description
-    ${object.description}
+    ${readme.description}
 
     ## Table of Contents
     * [Installation](#installation)
@@ -102,27 +102,27 @@ function buildContent(readme) {
     * [Additional-Badges](#additional-badges)
      
     ## Installation
-    ${object.installation}
+    ${readme.installation}
 
     # Utilization
-    ${object.utilization}
+    ${readme.utilization}
 
     ## License
-    ![alt text](https://img.shields.io/github/license/${object.userName}/${object.title}.svg "License")
+    ![alt text](https://img.shields.io/github/license/${readme.userName}/${readme.title}.svg "License")
 
     ## Contributors
-    ${object.contributors}
+    ${readme.contributors}
 
     ## Tests
-    ${object.tests}
+    ${readme.tests}
 
     ## Questions
-    Please direct any questions to ${object.email}
+    Please direct any questions to ${readme.email}
     Here is my profile picture for some reason:
     ![Profile Picture](${this.profilePic})
 
     ## Additional-Badges 
-    ![alt text](https://img.shields.io/github/license/${object.userName}/${object.title}.svg "Top Language Used")
+    ![alt text](https://img.shields.io/github/license/${readme.userName}/${readme.title}.svg "Top Language Used")
 
     ---
 
