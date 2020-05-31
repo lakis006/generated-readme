@@ -81,7 +81,7 @@ async function init() {
     }
     const content = buildContent(userInput);
 
-    writeToFile(userInput.fileName , content);
+    writeToFile((userInput.fileName == ""?  "readMe" : userInput.fileName) , content);
 }
 
 function buildContent(readme) {
@@ -134,3 +134,4 @@ function buildContent(readme) {
 
 
 init();
+console.log((1==1? "jamal" : "whatever"))
