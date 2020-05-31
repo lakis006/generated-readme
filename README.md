@@ -5,13 +5,13 @@
     ## Description
     This project is the grandaddy master of all projects 
 
-
+![program running](screenshot\readMe-vid.webm)
 
 
 ![program working](screenshot\another-pic.png)
 
 
-![program result](screenshot\readMe-vid.webm)
+![program result](screenshot\readmepic.png)
      
     ## Installation
     free installation!!!!
