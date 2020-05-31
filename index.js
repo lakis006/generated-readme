@@ -81,15 +81,6 @@ function buildContent(readme) {
 
     ## Description
     ${readme.description}
-
-    ## Table of Contents
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [License](#license)
-    * [Contributing](#contributing)
-    * [Tests](#tests)
-    * [Questions](#questions)
-    * [Additional-Badges](#additional-badges)
      
     ## Installation
     ${readme.installation}
