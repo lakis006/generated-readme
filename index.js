@@ -54,11 +54,7 @@ const questions = [
     name: "tests",
     message: "Tests:"
 },
-{
-    type: "input",
-    name: "filename",
-    message: "Enter a name for your .md file (if not it will default to readMe.md): "
-},
+
 ];
 
 function writeToFile(fileName, data) {
@@ -71,17 +67,11 @@ function writeToFile(fileName, data) {
 
 async function init() {
     const userInput = await inquirer.prompt(questions);
-    const { data } = "";
-    let profilePic;
-    try {
-        data = await axios.get(`https://api.github.com/users/${userInput.userName}`);
-        profilePic = data.avatar_url;
-    } catch (err) {
-        console.log("Sorry, but this failed to fetch the username from github Error: \n", err);
-    }
+    
     const content = buildContent(userInput);
 
-    writeToFile((userInput.fileName == ""?  "readMe" : userInput.fileName) , content);
+    writeToFile("readMe", content);
+
 }
 
 function buildContent(readme) {
@@ -128,10 +118,9 @@ function buildContent(readme) {
 
     `;
 
-    return content; 
+    return criteria; 
 
 }
 
 
 init();
-console.log((1==1? "jamal" : "whatever"))
