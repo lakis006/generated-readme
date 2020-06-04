@@ -9,11 +9,11 @@
   npm i
 
   # Utilization
-  answer the question prompts then get presented a file
+  answer the question prompts then get presented a file 
 
   ## License
   MIT
-  [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT
+  [![License: MIT][(https://img.shields.io/badge/License-MIT-green.svg)][(https://opensource.org/licenses/MIT)]
   
   
 
@@ -21,7 +21,7 @@
   me
 
   ## Tests
-  no tests yet
+  no tests yet 
 
   ## Questions
   Please direct any questions to lakis006@umn.edu
