@@ -1,41 +1,34 @@
 
 
-    # The Master Project 
+  # Winner!!
 
-    ## Description
-    This project is the grandaddy master of all projects 
+  ## Description
+  This project is designed to help you win the game and score 100 points while ignoring the enemy and battling for victory 
+   
+  ## Installation
+  it gets installed, then you use it. Simply put 
 
-![program running](screenshot\readMe-vid.webm)
+  # Utilization
+  It gets used and if you have any questions?
 
+  ## License
+  MIT
+  ![alt text](https://img.shields.io/github/license/undefined/Winner!!.svg "License")
 
-![program working](screenshot\another-pic.png)
+  ## Contributors
+  me 
 
+  ## Tests
+  dont test me 
 
-![program result](screenshot\readmepic.png)
-     
-    ## Installation
-    free installation!!!!
+  ## Questions
+  Please direct any questions to lakis006@umn.edu
+  Here is my profile picture for some reason:
+  ![Profile Picture](undefined)
 
-    # Utilization
-    just use it 
+  ## Additional-Badges 
+  ![alt text](https://img.shields.io/github/license/undefined/Winner!!.svg "Top Language Used")
 
-    ## License
-    ![alt text](https://img.shields.io/github/license/undefined/The Master Project .svg "License")
+  ---
 
-    ## Contributors
-    me myself and i 
-
-    ## Tests
-    dont test me 
-
-    ## Questions
-    Please direct any questions to lakis006@umn.edu
-    Here is my profile picture for some reason:
-    ![Profile Picture](undefined)
-
-    ## Additional-Badges 
-    ![alt text](https://img.shields.io/github/license/undefined/The Master Project .svg "Top Language Used")
-
-    ---
-
-    
+  

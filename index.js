@@ -1,6 +1,8 @@
 const fs = require('fs');
 const axios = require('axios');
 const inquirer = require('inquirer');
+const util = require('util');
+const generateMarkdown = require('./utils/generateMarkdown.js')
 
 const questions = [
     {
@@ -68,50 +70,50 @@ function writeToFile(fileName, data) {
 async function init() {
     const userInput = await inquirer.prompt(questions);
     
-    const content = buildContent(userInput);
+    const content = generateMarkdown(userInput);
 
     writeToFile("readMe.md", content);
 
 }
 
-function buildContent(readme) {
-    let criteria = `
+// function buildContent(readme) {
+//     let criteria = `
 
-    # ${readme.title}
+//     # ${readme.title}
 
-    ## Description
-    ${readme.description}
+//     ## Description
+//     ${readme.description}
      
-    ## Installation
-    ${readme.installation}
+//     ## Installation
+//     ${readme.installation}
 
-    # Utilization
-    ${readme.utilization}
+//     # Utilization
+//     ${readme.utilization}
 
-    ## License
-    ![alt text](https://img.shields.io/github/license/${readme.userName}/${readme.title}.svg "License")
+//     ## License
+//     ![alt text](https://img.shields.io/github/license/${readme.userName}/${readme.title}.svg "License")
 
-    ## Contributors
-    ${readme.contributors}
+//     ## Contributors
+//     ${readme.contributors}
 
-    ## Tests
-    ${readme.tests}
+//     ## Tests
+//     ${readme.tests}
 
-    ## Questions
-    Please direct any questions to ${readme.email}
-    Here is my profile picture for some reason:
-    ![Profile Picture](${this.profilePic})
+//     ## Questions
+//     Please direct any questions to ${readme.email}
+//     Here is my profile picture for some reason:
+//     ![Profile Picture](${this.profilePic})
 
-    ## Additional-Badges 
-    ![alt text](https://img.shields.io/github/license/${readme.userName}/${readme.title}.svg "Top Language Used")
+//     ## Additional-Badges 
+//     ![alt text](https://img.shields.io/github/license/${readme.userName}/${readme.title}.svg "Top Language Used")
 
-    ---
+//     ---
 
-    `;
+//     `;
 
-    return criteria; 
+//     return criteria; 
 
-}
+// }
 
 
 init();
