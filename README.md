@@ -23,8 +23,7 @@
 
   ## Questions
   Please direct any questions to lakis006@umn.edu
-  Here is my profile picture for some reason:
-  ![Profile Picture](undefined)
+
 
   ## Additional-Badges 
   ![alt text](https://img.shields.io/github/license/undefined/Winner!!.svg "Top Language Used")
