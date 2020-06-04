@@ -1,19 +1,19 @@
 
 
-  # generate-readme
+  # generated-readme
 
   ## Description
-  it generates a readme 
+  This project is designed to generate a really cool read me
    
   ## Installation
-  please just do something about this code 
+  npm install 
 
   # Utilization
-  enter prompts 
+  enter prompts then get presented with readme generated 
 
   ## License
   MIT
-  ![alt text](https://img.shields.io/github/license/undefined/generate-readme.svg "License")
+  ![alt text](https://img.shields.io/github/license/undefined/generated-readme.svg "License")
 
   ## Contributors
   me 
@@ -26,7 +26,7 @@
  
 
   ## Additional-Badges 
-  ![alt text](https://img.shields.io/github/license/undefined/generate-readme.svg "Top Language Used")
+  ![alt text](https://img.shields.io/github/license/undefined/generated-readme.svg "Top Language Used")
 
   ---
 

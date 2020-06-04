@@ -72,7 +72,7 @@ async function init() {
     
     const content = generateMarkdown(userInput);
 
-    writeToFile("Generated-ReadMe.md", content);
+    writeToFile("generated-readMe.md", content);
 
 }
 
