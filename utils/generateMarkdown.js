@@ -25,8 +25,7 @@ function generateMarkdown(readme) {
 
   ## Questions
   Please direct any questions to ${readme.email}
-  Here is my profile picture for some reason:
-  ![Profile Picture](${this.profilePic})
+ 
 
   ## Additional-Badges 
   ![alt text](https://img.shields.io/github/license/${readme.userName}/${readme.title}.svg "Top Language Used")

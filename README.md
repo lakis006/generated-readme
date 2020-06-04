@@ -1,22 +1,18 @@
 
 
-  # Winner!!
+  # 
 
   ## Description
-  This project is designed to help you win the game and score 100 points while ignoring the enemy and battling for victory 
-   
-  ## Installation
-  it gets installed, then you use it. Simply put 
+  The Generate Readme project is designed to help you build the most efficient and best readme there is! Once you enter all the prompt questions, you will be given a new read-me by the file name "Generated-Readme"  
+ 
+  # Utilization Video
+  ![alt text](screenshot\readMe-vid.webm "License")
 
-  # Utilization
-  It gets used and if you have any questions?
+  ## Link to deployed app 
+    https://lakis006.github.io/generated-readme/
 
-  ## License
-  MIT
-  ![alt text](https://img.shields.io/github/license/undefined/Winner!!.svg "License")
-
-  ## Contributors
-  me 
+ ## Screenshot
+  ![alt text](screenshot\readmepic.png) 
 
   ## Tests
   dont test me 
