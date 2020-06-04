@@ -25,8 +25,7 @@
   Please direct any questions to lakis006@umn.edu
 
 
-  ## Additional-Badges 
-  ![alt text](https://img.shields.io/github/license/undefined/Winner!!.svg "Top Language Used")
+
 
   ---
 

@@ -15,7 +15,9 @@ function generateMarkdown(readme) {
 
   ## License
   ${readme.license}
-  ![alt text](https://img.shields.io/github/license/${readme.userName}/${readme.title}.svg "License")
+  [![License: ${readme.license}](https://img.shields.io/badge/License-${readme.license}-green.svg)](https://opensource.org/licenses/${readme.license}
+  
+  
 
   ## Contributors
   ${readme.contributors}
@@ -26,6 +28,8 @@ function generateMarkdown(readme) {
   ## Questions
   Please direct any questions to ${readme.email}
  
+
+
 
   ## Additional-Badges 
   ![alt text](https://img.shields.io/github/license/${readme.userName}/${readme.title}.svg "Top Language Used")
