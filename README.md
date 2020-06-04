@@ -7,19 +7,15 @@
  
   # Utilization Video
 
-  ![program running](screenshot/rdme-vid.gif)
-=======
 
+  ![program running](screenshot/rdme-vid.gif)
 
 
   ## Link to deployed app 
     https://lakis006.github.io/generated-readme/
 
  ## Screenshot
-
   ![program working](screenshot/pic-rdme.png) 
-=======
-
 
 
   ## Tests
