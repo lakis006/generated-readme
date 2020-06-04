@@ -15,7 +15,7 @@ function generateMarkdown(readme) {
 
   ## License
   ${readme.license}
-  [![License: ${readme.license}](https://img.shields.io/badge/License-${readme.license}-green.svg)](https://opensource.org/licenses/${readme.license})
+  [![License: ${readme.license}][(https://img.shields.io/badge/License-${readme.license}-green.svg)][(https://opensource.org/licenses/${readme.license})]
   
   
 
