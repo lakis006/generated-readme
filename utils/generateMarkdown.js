@@ -36,10 +36,6 @@ function generateMarkdown(readme) {
 
   ## Questions
   Please direct any questions to ${readme.email}
- 
-
-
-
 
 
   ---

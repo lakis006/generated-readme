@@ -1,24 +1,24 @@
 
 
-  # best-project-ever
+  # generated-readme
 
   ## Description
-  it is very self explanatory 
+  This project is designed to create a new readme file that is ready to be used right away!
 
 
   ## Table of Contacts
   * [Installation](#installation)
 * [utilization](#utilization)
 * [License](#license)
-* [Contributors](#contribors)
+* [Contributors](#contributors)
 * [Tests](#tests)
 * [Questions](#questions)
    
   ## Installation
-  the instructions go as follow 
+  npm i
 
   # Utilization
-  just use it and you'll be fine homie 
+  answer prompt questions then receive a brand new readme file 
 
   ## License
   MIT
@@ -27,13 +27,13 @@
   
 
   ## Contributors
-  nobody
+  nobody 
 
   ## Tests
-  dont test me 
+  no tests yet 
 
   ## Questions
-  Please direct any questions to zed987@aol.com
+  Please direct any questions to lakis006@umn.edu
  
 
 
