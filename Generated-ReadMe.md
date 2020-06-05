@@ -1,22 +1,24 @@
 
 
-  # generated-readme
+  # best-project-ever
 
   ## Description
-  this project just created a new readme file called generated-readme
+  it is very self explanatory 
 
+
+  ## Table of Contacts
   * [Installation](#installation)
 * [utilization](#utilization)
 * [License](#license)
-* [Contributing](#contributing)
+* [Contributors](#contribors)
 * [Tests](#tests)
 * [Questions](#questions)
    
   ## Installation
-  npm i
+  the instructions go as follow 
 
   # Utilization
-  answer the question prompts then get presented a file
+  just use it and you'll be fine homie 
 
   ## License
   MIT
@@ -25,13 +27,13 @@
   
 
   ## Contributors
-  me 
+  nobody
 
   ## Tests
-  no tests yet 
+  dont test me 
 
   ## Questions
-  Please direct any questions to lakis006@umn.edu
+  Please direct any questions to zed987@aol.com
  
 
 
