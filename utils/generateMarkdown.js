@@ -6,6 +6,13 @@ function generateMarkdown(readme) {
 
   ## Description
   ${readme.description}
+
+  * [Installation](#installation)
+* [utilization](#utilization)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
    
   ## Installation
   ${readme.installation}
