@@ -7,10 +7,12 @@ function generateMarkdown(readme) {
   ## Description
   ${readme.description}
 
+
+  ## Table of Contacts
   * [Installation](#installation)
 * [utilization](#utilization)
 * [License](#license)
-* [Contributing](#contributing)
+* [Contributors](#contribors)
 * [Tests](#tests)
 * [Questions](#questions)
    
