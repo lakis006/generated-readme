@@ -12,7 +12,7 @@ function generateMarkdown(readme) {
   * [Installation](#installation)
 * [utilization](#utilization)
 * [License](#license)
-* [Contributors](#contribors)
+* [Contributors](#contributors)
 * [Tests](#tests)
 * [Questions](#questions)
    
